@@ -1,146 +1,152 @@
 [
   {
-        "id": 1,
-        "subject": "alibaba-fastjson",
-        "bug_id": "CVE-2017-18349",
-        "source_directory": "src/main/java",
-        "class_directory": "target/classes",
-        "test_directory": "src/test/java",
-        "test_class_directory": "target/test-classes",
-        "java_version": 8,
-        "build_system": "maven",
-        "dependencies": [
-            "src/target/all-dependencies.jar"
-        ],
-        "failing_test": [
-            "com.alibaba.json.bvt.bug.Issue1005#test_for_issue"
-        ],
-        "passing_test": [],
-        "count_neg": 1,
-        "count_pos": 0,
-        "test_timeout": 10,
-        "build_script": "build_subject",
-        "test_script": "run_test",
-        "bug_type": "Improper Input Validation"
-    },
-    {
-        "id": 2,
-        "subject": "apache-batik",
-        "bug_id": "CVE-2017-5662",
-        "source_directory": "batik-dom/src/main/java",
-        "class_directory": "batik-dom/target/classes",
-        "test_directory": "batik-dom/src/test/java",
-        "test_class_directory": "batik-dom/target/test-classes",
-        "java_version": 8,
-        "build_system": "maven",
-        "dependencies": [
-            "src/batik-dom/target/all-dependencies.jar"
-        ],
-        "failing_test": [
-            "org.apache.batik.dom.util.TestCVE_2017_5662#testCVE_2017_5662"
-        ],
-        "passing_test": [],
-        "count_neg": 1,
-        "count_pos": 0,
-        "test_timeout": 10,
-        "build_script": "build_subject",
-        "test_script": "run_test",
-        "bug_type": "Improper Restriction of XML External Entity Reference"
-    },
-     {
-        "id": 3,
-        "subject": "apache-commons-fileupload",
-        "bug_id": "CVE-2014-0050",
-        "source_directory": "src/main/java",
-        "class_directory": "target/classes",
-        "test_directory": "src/test/java",
-        "test_class_directory": "target/test-classes",
-        "java_version": 8,
-        "build_system": "maven",
-        "dependencies": [
-            "src/target/all-dependencies.jar"
-        ],
-        "failing_test": [
-            "org.apache.commons.fileupload.MultipartStreamTest#testSmallBuffer"
-        ],
-        "passing_test": [],
-        "count_neg": 1,
-        "count_pos": 0,
-        "test_timeout": 10,
-        "build_script": "build_subject",
-        "test_script": "run_test",
-        "bug_type": "Permissions, Privileges, and Access Controls"
-    },
-   {
-        "id": 4,
-        "subject": "apache-cxf",
-        "bug_id": "CVE-2015-5253",
-        "source_directory": "rt/rs/security/sso/saml/src/main/java",
-        "class_directory": "rt/rs/security/sso/saml/target/classes",
-        "test_directory": "rt/rs/security/sso/saml/src/test/java",
-        "test_class_directory": "rt/rs/security/sso/saml/target/test-classes",
-        "java_version": 8,
-        "build_system": "maven",
-        "dependencies": [
-            "src/rt/rs/security/sso/saml/target/all-dependencies.jar"
-        ],
-        "failing_test": [
-            "org.apache.cxf.rs.security.saml.sso.CombinedValidatorTest#testWrappingAttack3"
-        ],
-        "passing_test": [],
-        "count_neg": 1,
-        "count_pos": 0,
-        "test_timeout": 10,
-        "build_script": "build_subject",
-        "test_script": "run_test",
-        "bug_type": "Permissions, Privileges, and Access Controls"
-    },
+    "id": 1,
+    "subject": "alibaba-fastjson",
+    "bug_id": "CVE-2017-18349",
+    "source_directory": "src/main/java",
+    "class_directory": "target/classes",
+    "test_directory": "src/test/java",
+    "test_class_directory": "target/test-classes",
+    "java_version": 8,
+    "build_system": "maven",
+    "language": "java",
+    "dependencies": [
+      "src/target/all-dependencies.jar"
+    ],
+    "failing_test": [
+      "com.alibaba.json.bvt.bug.Issue1005#test_for_issue"
+    ],
+    "passing_test": [],
+    "count_neg": 1,
+    "count_pos": 0,
+    "test_timeout": 10,
+    "build_script": "build_subject",
+    "test_script": "run_test",
+    "bug_type": "Improper Input Validation"
+  },
   {
-        "id": 5,
-        "subject": "apache-jspwiki",
-        "bug_id": "CVE-2019-0225",
-        "source_directory": "jspwiki-main/src/main/java",
-        "class_directory": "jspwiki-main/target/classes",
-        "test_directory": "jspwiki-main/src/test/java",
-        "test_class_directory": "jspwiki-main/target/test-classes",
-        "java_version": 8,
-        "build_system": "maven",
-        "dependencies": [
-            "src/jspwiki-main/target/all-dependencies.jar"
-        ],
-        "failing_test": [
-            "org.apache.wiki.WikiServletTest#testNastyDoPost,org.apache.wiki.WikiServletTest#testDoGet"
-        ],
-        "passing_test": [],
-        "count_neg": 1,
-        "count_pos": 0,
-        "test_timeout": 10,
-        "build_script": "build_subject",
-        "test_script": "run_test",
-        "bug_type": "Improper Limitation of a Pathname to a Restricted Directory"
-    },
+    "id": 2,
+    "subject": "apache-batik",
+    "bug_id": "CVE-2017-5662",
+    "source_directory": "batik-dom/src/main/java",
+    "class_directory": "batik-dom/target/classes",
+    "test_directory": "batik-dom/src/test/java",
+    "test_class_directory": "batik-dom/target/test-classes",
+    "java_version": 8,
+    "build_system": "maven",
+    "language": "java",
+    "dependencies": [
+      "src/batik-dom/target/all-dependencies.jar"
+    ],
+    "failing_test": [
+      "org.apache.batik.dom.util.TestCVE_2017_5662#testCVE_2017_5662"
+    ],
+    "passing_test": [],
+    "count_neg": 1,
+    "count_pos": 0,
+    "test_timeout": 10,
+    "build_script": "build_subject",
+    "test_script": "run_test",
+    "bug_type": "Improper Restriction of XML External Entity Reference"
+  },
   {
-        "id": 6,
-        "subject": "jenkinsci-jenkins",
-        "bug_id": "CVE-2018-1999044",
-        "source_directory": "core/src/main/java",
-        "class_directory": "core/target/classes",
-        "test_directory": "core/src/test/java",
-        "test_class_directory": "core/target/test-classes",
-        "java_version": 8,
-        "build_system": "maven",
-        "dependencies": [
-            "src/core/target/all-dependencies.jar"
-        ],        
-        "failing_test": [
-            "hudson.scheduler.CronTabTest#testLongMonths"
-        ],
-        "passing_test": [],
-        "count_neg": 1,
-        "count_pos": 0,
-        "test_timeout": 10,
-        "build_script": "build_subject",
-        "test_script": "run_test",
-        "bug_type": "Loop with Unreachable Exit Condition"
-    }
+    "id": 3,
+    "subject": "apache-commons-fileupload",
+    "bug_id": "CVE-2014-0050",
+    "source_directory": "src/main/java",
+    "class_directory": "target/classes",
+    "test_directory": "src/test/java",
+    "test_class_directory": "target/test-classes",
+    "java_version": 8,
+    "build_system": "maven",
+    "language": "java",
+    "dependencies": [
+      "src/target/all-dependencies.jar"
+    ],
+    "failing_test": [
+      "org.apache.commons.fileupload.MultipartStreamTest#testSmallBuffer"
+    ],
+    "passing_test": [],
+    "count_neg": 1,
+    "count_pos": 0,
+    "test_timeout": 10,
+    "build_script": "build_subject",
+    "test_script": "run_test",
+    "bug_type": "Permissions, Privileges, and Access Controls"
+  },
+  {
+    "id": 4,
+    "subject": "apache-cxf",
+    "bug_id": "CVE-2015-5253",
+    "source_directory": "rt/rs/security/sso/saml/src/main/java",
+    "class_directory": "rt/rs/security/sso/saml/target/classes",
+    "test_directory": "rt/rs/security/sso/saml/src/test/java",
+    "test_class_directory": "rt/rs/security/sso/saml/target/test-classes",
+    "java_version": 8,
+    "build_system": "maven",
+    "language": "java",
+    "dependencies": [
+      "src/rt/rs/security/sso/saml/target/all-dependencies.jar"
+    ],
+    "failing_test": [
+      "org.apache.cxf.rs.security.saml.sso.CombinedValidatorTest#testWrappingAttack3"
+    ],
+    "passing_test": [],
+    "count_neg": 1,
+    "count_pos": 0,
+    "test_timeout": 10,
+    "build_script": "build_subject",
+    "test_script": "run_test",
+    "bug_type": "Permissions, Privileges, and Access Controls"
+  },
+  {
+    "id": 5,
+    "subject": "apache-jspwiki",
+    "bug_id": "CVE-2019-0225",
+    "source_directory": "jspwiki-main/src/main/java",
+    "class_directory": "jspwiki-main/target/classes",
+    "test_directory": "jspwiki-main/src/test/java",
+    "test_class_directory": "jspwiki-main/target/test-classes",
+    "java_version": 8,
+    "build_system": "maven",
+    "language": "java",
+    "dependencies": [
+      "src/jspwiki-main/target/all-dependencies.jar"
+    ],
+    "failing_test": [
+      "org.apache.wiki.WikiServletTest#testNastyDoPost,org.apache.wiki.WikiServletTest#testDoGet"
+    ],
+    "passing_test": [],
+    "count_neg": 1,
+    "count_pos": 0,
+    "test_timeout": 10,
+    "build_script": "build_subject",
+    "test_script": "run_test",
+    "bug_type": "Improper Limitation of a Pathname to a Restricted Directory"
+  },
+  {
+    "id": 6,
+    "subject": "jenkinsci-jenkins",
+    "bug_id": "CVE-2018-1999044",
+    "source_directory": "core/src/main/java",
+    "class_directory": "core/target/classes",
+    "test_directory": "core/src/test/java",
+    "test_class_directory": "core/target/test-classes",
+    "java_version": 8,
+    "build_system": "maven",
+    "language": "java",
+    "dependencies": [
+      "src/core/target/all-dependencies.jar"
+    ],
+    "failing_test": [
+      "hudson.scheduler.CronTabTest#testLongMonths"
+    ],
+    "passing_test": [],
+    "count_neg": 1,
+    "count_pos": 0,
+    "test_timeout": 10,
+    "build_script": "build_subject",
+    "test_script": "run_test",
+    "bug_type": "Loop with Unreachable Exit Condition"
+  }
 ]
